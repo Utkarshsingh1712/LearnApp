@@ -19,7 +19,7 @@ namespace LearnApp.Datastore.Repositories
         }
        public void InsertUserInformation(UserInformation userInformation)
         {
-            _storeContext.UserInformation.Add(userInformation);
+            _storeContext.UserInformations.Add(userInformation);
             _storeContext.SaveChanges();
         }
     }
